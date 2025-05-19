@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* 
+    My Styles
+*/
+
 @font-face {
     font-family: 'lucida_grande';
     src: url('./fonts/lucidagrande.woff2') format('woff2'),
@@ -62,9 +66,19 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-/* 
-    My Styles
-*/
 :root {
     font-family: 'lucida_grande', Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  gap: 25px;
+}
+
+.large-background-image {
+  background-image: url(./large_background_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  width: 50vw;
 }
