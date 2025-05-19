@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'lucida_grande';
+    src: url('./fonts/lucidagrande.woff2') format('woff2'),
+         url('./fonts/lucidagrande.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: 'lucida_grande', Arial, Helvetica, sans-serif;
+    color: red;
+}
