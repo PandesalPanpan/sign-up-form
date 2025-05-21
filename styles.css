@@ -133,3 +133,16 @@ h3 {
   -moz-box-shadow: -2px 9px 5px 0px rgba(224,225,226,0.75);
   padding: 25px;
 }
+
+button[type="submit"] {
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px 20px;
+  border: none;
+}
+
+p > a {
+  color: #596D48;
+}
