@@ -79,7 +79,6 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   display: flex;
-  gap: 25px;
 }
 
 .sidebar {
@@ -109,3 +108,28 @@ body {
   font-size: 4rem;
 }
 
+.main {
+  background-color: rgb(249, 250, 251);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main > div {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.register {
+  background-color: rgb(255, 255, 255);
+  /* FROM https://cssgenerator.org/box-shadow-css-generator.html */
+  box-shadow: -2px 9px 5px 0px rgba(224,225,226,0.75);
+  -webkit-box-shadow: -2px 9px 5px 0px rgba(224,225,226,0.75);
+  -moz-box-shadow: -2px 9px 5px 0px rgba(224,225,226,0.75);
+  padding: 25px;
+}
