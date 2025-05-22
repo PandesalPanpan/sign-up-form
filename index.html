@@ -25,31 +25,43 @@
                     <div class="form-row">
                         <div class="form-control">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <input type="text" id="first-name" name="first-name" class="input-box" required>
                         </div>
                         <div class="form-control">
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="last-name">
+                            <input type="text" id="last-name" name="last-name" class="input-box" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-control">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" class="input-box" required>
                         </div>
                         <div class="form-control">
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="text" id="phone" name="phone">
+                            <input type="text" id="phone" name="phone" class="input-box" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-control">
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" id="pwd" name="password">
+                            <input 
+                            type="password" 
+                            id="pwd" 
+                            name="password" 
+                            class="input-box" 
+                            required 
+                            pattern="^(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).{8,}$">
                         </div>
                         <div class="form-control">
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-pwd" name="confirm-password">
+                            <input 
+                            type="password" 
+                            id="confirm-pwd" 
+                            name="confirm-password" 
+                            class="input-box" 
+                            required
+                            pattern="^(?=.*[A-Z])(?=.*[^a-zA-Z0-9]).{8,}$">
                         </div>
                     </div>
                 </div>
