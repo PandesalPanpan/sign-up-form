@@ -179,3 +179,16 @@ p > a {
 button[type="submit"] {
   cursor: pointer !important;
 }
+
+.credits {
+  position: absolute;
+  left: 3vw;
+  bottom: 0;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.credits a {
+  color: white;
+}
